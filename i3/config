@@ -174,7 +174,7 @@ set $bg-unfocused            #3d3532
 ##f27d00
 ##bf4f3b
 ##e8d1a7
-set $bg-focused               #e8d1a7
+set $bg-focused               #cf4e5b
 
 # Appppply            #border #background #text #indicator
 client.focused        #7FB256 $bg-focused #F5F5FF $bg-focused
@@ -199,11 +199,13 @@ exec --no-startup-id xrdb ~/.Xdefaults
 exec --no-startup-id ~/gitforks/picom/build/src/picom --experimental-backends
 exec --no-startup-id autotiling
 exec --no-startup-id xset r rate 200 20
-exec --no-startup-id wal -i ~/sunset.jpeg
+exec --no-startup-id feh --bg-fill ~/rose.jpg ~/rose.jpg ~/sunset.jpeg
+exec --no-startup-id wal -nqi ~/rose.jpg
+exec --no-startup-id google-chrome-stable --app=https://calendar.google.com
 for_window [class=".*"] border pixel 7
-for_window [class="Google-chrome"] border pixel 10
-assign [class="Google-chrome"] $ws1
+assign [instance="google-chrome"] $ws1
 assign [class="St"] $ws2
+assign [instance="calendar.google.com"] $ws3
 gaps inner 20
 gaps outer 0
 bindsym $mod+t gaps inner current set 30; gaps outer current set 10

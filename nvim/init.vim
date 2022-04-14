@@ -11,6 +11,7 @@ call plug#begin()
     Plug 'tpope/vim-commentary'
     Plug 'ap/vim-css-color'
     Plug 'sheerun/vim-polyglot'
+    Plug 'bluz71/vim-nightfly-guicolors'
 call plug#end()
 
 " colorscheme
