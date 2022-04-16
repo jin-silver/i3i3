@@ -178,7 +178,7 @@ set $bg-focused               #cf4e5b
 # Appppply            #border #background #text #indicator
 client.focused        #7FB256 $bg-focused #F5F5FF $bg-focused
 client.focused_inactive    #0F0F0F $bg-unfocused #E5E5E5 $bg-unfocused
-client.unfocused    #0F0F0F $bg-unfocused 3d3532 #E5E5E5 $bg-unfocused
+client.unfocused    #0F0F0F $bg-unfocused #3d3532 #E5E5E5 $bg-unfocused
 
 
 

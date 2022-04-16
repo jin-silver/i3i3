@@ -22,6 +22,8 @@ sudo apt install i3-gaps
 * polybar
 * https://linuxhint.com/status-bars-polybar-linux/
 * sudo apt install python3-sphinx
+https://github.com/LARG/HFO/issues/79
+* cmake -DCMAKE_BUILD_TYPE=RelwithDebInfo -DBUILD_SOCCERWINDOW=False ..
 
 1. neovim
 2. luke's st terminal
