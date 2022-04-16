@@ -163,23 +163,25 @@ bindsym $mod+r exec st -- fish -c ranger
 #
 #
 #
-# set colors
+
+# SET COLORS
 # colors
 
 ##3d3532
 set $bg-unfocused            #3d3532
-
 ##a64184
 ##be59c9
 ##f27d00
 ##bf4f3b
 ##e8d1a7
 set $bg-focused               #cf4e5b
-
 # Appppply            #border #background #text #indicator
 client.focused        #7FB256 $bg-focused #F5F5FF $bg-focused
 client.focused_inactive    #0F0F0F $bg-unfocused #E5E5E5 $bg-unfocused
 client.unfocused    #0F0F0F $bg-unfocused 3d3532 #E5E5E5 $bg-unfocused
+
+
+
 # enter fullscreen mode for the focused container
 bindsym $mod+shift+f fullscreen toggle
 # config editing

@@ -11,11 +11,10 @@
 function fish_user_key_bindings
     fish_vi_key_bindings
     bind -M insert -m default jj backward-char force-repaint
-    bind -M default \cr history-search-backward
+    bind -M default \ce history-search-backward
     bind -M insert \cr history-search-backward
     bind -M default \cf history-search-forward
     bind -M insert \cf history-search-forward
-    bind -M insert \ce end-of-line
 end
 alias ls='/opt/coreutils/bin/ls --color --group-directories-first -X'
 alias ghidra='/home/jin/ghidra_10.1-BETA_PUBLIC/ghidraRun'
